@@ -44,6 +44,7 @@ public class SpringbootDatajpaApplication {
 		st.setStudentAddress("Hyderabad");
 		st.setStudentId(1); //existing student id
 		sImpl.updateStudent(st);
+		System.out.println("Main class");
 		
 	}
 
